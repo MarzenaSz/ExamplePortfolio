@@ -141,7 +141,7 @@ header {
 
 /* arrow scroll indicator || code used from: https://codepen.io/robooneus/pen/Aclqr */
 .arrow-wrap {
-    /* position the arrow in the bottom of the header */
+  /* position the arrow in the bottom of the header */
   position:absolute;
   z-index:1;
   left:50%;
@@ -166,7 +166,7 @@ header {
   border-style: solid;
   border-width: 3em 3em 0 3em;
   border-color: #e8e8e8 transparent transparent transparent;
-  -webkit-transform:rotate(360deg)
+  -webkit-transform:rotate(360deg);
 }
 
 .arrow:after {
@@ -179,7 +179,7 @@ header {
   border-style: solid;
   border-width: 3em 3em 0 3em;
   border-color: #222222 transparent transparent transparent;
-  -webkit-transform:rotate(360deg)
+  -webkit-transform:rotate(360deg);
 }
 
 /* animation */
@@ -284,6 +284,8 @@ header {
 
 .portfolio-info {
     text-align: center;
+    /* add some margin to the bottom of every link */
+    margin-bottom: 30px;
 }
 
 .portfolio-info p {
@@ -336,7 +338,7 @@ header {
 .social-icon:link, .social-icon:visited {
     color: #fff;
     opacity: 0.6;
-    /* aniamte opacity */
+    /* animate opacity */
     transition: opacity 0.2s;
 }
 
@@ -365,5 +367,5 @@ footer p {
     padding-top: 5px;
     text-align: center;
     letter-spacing: 1px;
-    
+
 }

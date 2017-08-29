@@ -1,22 +1,28 @@
 @media only screen and (max-width: 768px) {
-    
+
+    .row { width: 100%; }
+
     .box {
         width: 100%;
         padding: 0.5%;
+        /* remove left margin from the box */
+        margin-left: 0;
     }
-    
+
     .hero-text-box {
-        width: 100%;
+        width: 90%;
     }
-    
+
     .hero-text.box p {
-        font-size: 95%;
+        /* reduce the size of the font */
+        font-size: 90%;
     }
-    
+
     .hero-text-box h1 {
+        /* reduce the size of the font */
         font-size: 160%;
     }
-    
+
     .motivational-quote {
         background-color: #404040;
         height: 200px;
@@ -24,39 +30,79 @@
     }
 
     .motivational-quote p {
+        /* reduce the size of the font */
         font-size: 105%;
+        /* increase the width of the quote */
+        width: 90%;
     }
 
     .motivational-quote p:before {
-
+        /* reduce the size of the icon */
         font-size: 350%;
         left: 8px;
     }
-    
+
+    .about-me-section p {
+        /* increase width of the paragraph */
+        width: 90%;
+        /* decrese the margin */
+        margin-bottom: 30px;
+    }
+
     h2 { font-size: 130%; }
-    
-    .row { width: 100%; }
+
+    section { padding: 20px 0; }
+
+    .arrow-wrap {
+        width: 8em;
+        height: 8em;
+        padding: 3em 1em;
+    }
+    .contact-section {
+        padding-bottom: 0;
+        padding-top: 5px;
+    }
+
+    .contact-section li {
+        /* make the icons smaller */
+        font-size: 170%;
+        /* reduce margins around the icons */
+        margin: 20px 20px;
+    }
+
+    .contact-section h3 {
+        /* decrease the font size */
+        font-size: 105%;
+    }
 
 }
 
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    
+
     .box {
         width: 49.2%;
         padding: 0.5%;
     }
-    
- .hero-text-box { width: 100%; }
-    
- .row { width: 100%; }
-    
-        .motivational-quote p {
+
+    .hero-text-box { width: 100%; }
+
+    .row { width: 95%; }
+
+    .motivational-quote p {
         font-size: 110%;
     }
 
     .motivational-quote p:before {
         font-size: 400%;
         left: -5px;
+    }
+
+    .about-me-section p {
+        width: 70%;
+    }
+
+    .smaller-row div:last-of-type {
+        margin-left: 0;
     }
 }
